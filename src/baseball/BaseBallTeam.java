@@ -6,7 +6,6 @@ public class BaseBallTeam {
         private int win;
         private int lose;
         private int draw;
-        private double Rate;
 
         public BaseBallTeam(String name, int win, int lose, int draw) {
             this.name = name;
@@ -17,7 +16,7 @@ public class BaseBallTeam {
 
         public double getRate() {
 
-            return Rate = (double) win / (win + lose) ;
+            return (double) win / (win + lose) ;
 
         }
 
